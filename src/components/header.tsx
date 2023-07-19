@@ -32,7 +32,7 @@ export const Header = () => {
       </button>
       <div>
         <h1 className="text-4xl font-bold mb-2">Diego Lima</h1>
-        <h2 className="text-light-blue11 text-lg font-bold mb-4 dark:text-dark-blue11">
+        <h2 className="text-light-blue11 text-lg font-bold mb-4 border-r-2 border-light-blue11 w-[25ch] whitespace-nowrap overflow-hidden animate-typeWriter dark:text-dark-blue11 dark:border-dark-blue11">
           Desenvolvedor Web Full Stack
         </h2>
       </div>
