@@ -2,6 +2,7 @@ import { techList } from "../utils";
 import { TechCard } from "./techCard";
 import { register } from "swiper/element/bundle";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { BsArrowLeftSquareFill, BsArrowRightSquareFill } from "react-icons/bs";
 
 register();
 import "swiper/css";
@@ -14,18 +15,22 @@ export const Techs = () => {
         <h2 className="w-[80%] m-auto text-2xl font-bold">Tecnologias</h2>
       </div>
       <Swiper
-        className="w-[80%] mb-6"
+        className="mb-6 w-[80%]"
         slidesPerView={1}
-        spaceBetween={50}
+        spaceBetween={30}
         autoplay={{ delay: 2000 }}
         loop={true}
         pagination={{ clickable: true, el: ".swiper-custom-pagination" }}
-        navigation
+        navigation={{
+          prevEl: ".swiper-custom-prev",
+          nextEl: ".swiper-custom-next",
+        }}
         keyboard={true}
         mousewheel={true}
         breakpoints={{
-          768: {
+          600: {
             slidesPerView: 2,
+            spaceBetween: 10,
           },
         }}
       >
@@ -35,7 +40,15 @@ export const Techs = () => {
           </SwiperSlide>
         ))}
       </Swiper>
-      <div className="swiper-custom-pagination flex justify-center" />
+      <div className="w-[80%] max-w-sm m-auto flex justify-center">
+        <div className="swiper-custom-prev text-4xl">
+          <BsArrowLeftSquareFill />
+        </div>
+        <div className="swiper-custom-pagination flex justify-center self-center" />
+        <div className="swiper-custom-next text-4xl">
+          <BsArrowRightSquareFill />
+        </div>
+      </div>
     </section>
   );
 };

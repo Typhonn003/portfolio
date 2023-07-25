@@ -6,4 +6,12 @@
   .swiper-custom-pagination > span {
     @apply bg-light-blue12 dark:bg-dark-blue12;
   }
+
+  .swiper-custom-prev {
+    @apply text-light-blue12 dark:text-dark-blue12;
+  }
+
+  .swiper-custom-next {
+    @apply text-light-blue12 dark:text-dark-blue12;
+  }
 }
