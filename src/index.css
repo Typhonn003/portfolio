@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .swiper-custom-pagination > span {
+    @apply bg-light-blue12 dark:bg-dark-blue12;
+  }
+}
