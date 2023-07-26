@@ -41,13 +41,13 @@ export const Techs = () => {
         ))}
       </Swiper>
       <div className="w-[80%] max-w-sm m-auto flex justify-center">
-        <div className="swiper-custom-prev text-4xl">
+        <button className="swiper-custom-prev text-4xl">
           <BsArrowLeftSquareFill />
-        </div>
+        </button>
         <div className="swiper-custom-pagination flex justify-center self-center" />
-        <div className="swiper-custom-next text-4xl">
+        <button className="swiper-custom-next text-4xl">
           <BsArrowRightSquareFill />
-        </div>
+        </button>
       </div>
     </section>
   );

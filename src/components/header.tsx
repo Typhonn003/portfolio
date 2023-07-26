@@ -47,10 +47,10 @@ export const Header = () => {
           <li></li>
         </ul>
       </nav>
-      <ul className="flex gap-5 h-7">
+      <ul className="flex gap-5">
         <li>
           <a
-            className="text-2xl"
+            className="text-3xl"
             href="https://github.com/typhonn003"
             target="_blank"
             aria-label="Access my GitHub profile"
@@ -60,7 +60,7 @@ export const Header = () => {
         </li>
         <li>
           <a
-            className="text-2xl"
+            className="text-3xl"
             href="https://www.linkedin.com/in/typhonn003/"
             target="_blank"
             aria-label="Access my LinkedIn profile"
