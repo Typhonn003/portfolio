@@ -1,4 +1,4 @@
-import { blue, blueDark } from "@radix-ui/colors";
+import { blue, blueDark, teal, purpleDark } from "@radix-ui/colors";
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -8,9 +8,11 @@ export default {
       colors: {
         light: {
           ...blue,
+          ...teal,
         },
         dark: {
           ...blueDark,
+          ...purpleDark,
         },
       },
       keyframes: {
