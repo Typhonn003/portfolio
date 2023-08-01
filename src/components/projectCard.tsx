@@ -1,31 +1,22 @@
 export const ProjectCard = () => {
   return (
-    <div className="bg-light-blue8 w-full p-4 rounded-md dark:bg-dark-blue8">
-      <div className="bg-white h-36 rounded-md mb-4">
-        <img src="" alt="" />
-      </div>
-      <div className="flex flex-col gap-4">
-        <h2 className="text-light-blue12 text-2xl font-bold dark:text-dark-blue12">
-          Nome do projeto
+    <ul className="group w-full max-w-[340px] h-[190px] overflow-hidden rounded-md border-2 border-light-blue7 relative dark:border-dark-blue7">
+      <div className="h-full transition-all duration-500 group-hover:h-0">
+        <img
+          src="src/img/placeholder.jpg"
+          alt=""
+          className="w-full h-full object-cover"
+        />
+        <h2 className="absolute top-0 right-0 text-xl font-bold bg-light-blue9 px-4 py-2 rounded-bl-lg uppercase dark:bg-dark-blue9">
+          Hub LinkUp
         </h2>
-        <p className="text-light-blue12 text-sm dark:text-dark-blue12">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae
-          ducimus, eaque autem voluptate rem voluptas praesentium, explicabo
-          delectus nulla labore commodi eum ad reprehenderit asperiores. Culpa
-          placeat fugit non ipsam.
-        </p>
-        <ul className="flex gap-2">
-          <li className="bg-light-blue10 text-light-blue1 rounded-full px-3 py-1 text-sm font-medium dark:bg-dark-blue10 dark:text-dark-blue1">
-            Tech 1
-          </li>
-          <li className="bg-light-blue10 text-light-blue1 rounded-full px-3 py-1 text-sm font-medium dark:bg-dark-blue10 dark:text-dark-blue1">
-            Tech 2
-          </li>
-          <li className="bg-light-blue10 text-light-blue1 rounded-full px-3 py-1 text-sm font-medium dark:bg-dark-blue10 dark:text-dark-blue1">
-            Tech 3
-          </li>
-        </ul>
       </div>
-    </div>
+      <div className="h-full bg-light-blue9 dark:bg-dark-blue9">
+        <p className="px-4 pb-4 pt-14 text-light-blue1">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
+          provident minus at nihil. Ea deserunt nesciunt aperiam.
+        </p>
+      </div>
+    </ul>
   );
 };
