@@ -8,6 +8,10 @@ export const Projects = () => {
       </div>
       <div className="flex flex-col gap-6 w-[80%] m-auto text-base">
         <ProjectCard />
+        <ProjectCard />
+        <ProjectCard />
+        <ProjectCard />
+        <ProjectCard />
       </div>
     </section>
   );
