@@ -1,3 +1,4 @@
+import { projectData } from "../utils/projectData";
 import { ProjectCard } from "./projectCard";
 
 export const Projects = () => {
@@ -7,11 +8,9 @@ export const Projects = () => {
         <h2 className="w-[80%] m-auto text-2xl font-bold">Projetos</h2>
       </div>
       <div className="flex flex-col gap-6 w-[80%] m-auto text-base">
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
+        {projectData.map((project) => (
+          <ProjectCard key={project.id} project={project} />
+        ))}
       </div>
     </section>
   );
