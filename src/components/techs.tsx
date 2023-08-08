@@ -40,11 +40,11 @@ export const Techs = () => {
           </SwiperSlide>
         ))}
       </Swiper>
-      <div className="w-[80%] max-w-sm m-auto flex justify-center">
+      <div className="w-[80%] max-w-md m-auto flex justify-center">
         <button className="swiper-custom-prev text-4xl">
           <BsArrowLeftSquareFill />
         </button>
-        <div className="swiper-custom-pagination flex justify-center self-center" />
+        <div className="swiper-custom-pagination flex flex-wrap gap-2 justify-center self-center" />
         <button className="swiper-custom-next text-4xl">
           <BsArrowRightSquareFill />
         </button>
