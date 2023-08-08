@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 @layer components {
+  .mobile-width {
+    @apply w-[90%];
+  }
+
   .swiper-custom-pagination > span {
     @apply bg-light-blue12 dark:bg-dark-blue12;
   }

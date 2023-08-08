@@ -12,10 +12,10 @@ export const Techs = () => {
   return (
     <section className="pb-10">
       <div className="sticky top-0 z-20 py-5 mb-5 backdrop-blur-sm bg-light-blue2/10 dark:bg-dark-blue2/10">
-        <h2 className="w-[80%] m-auto text-2xl font-bold">Tecnologias</h2>
+        <h2 className="mobile-width m-auto text-2xl font-bold">Tecnologias</h2>
       </div>
       <Swiper
-        className="mb-6 w-[80%]"
+        className="mb-6 mobile-width"
         slidesPerView={1}
         spaceBetween={30}
         autoplay={{ delay: 2000 }}
@@ -40,7 +40,7 @@ export const Techs = () => {
           </SwiperSlide>
         ))}
       </Swiper>
-      <div className="w-[80%] max-w-md m-auto flex justify-center">
+      <div className="mobile-width max-w-md m-auto flex justify-center">
         <button className="swiper-custom-prev text-4xl">
           <BsArrowLeftSquareFill />
         </button>

@@ -22,7 +22,7 @@ export const Header = () => {
   };
 
   return (
-    <header className="w-[80%] m-auto py-10">
+    <header className="mobile-width m-auto py-10">
       <button
         onClick={toggleDarkMode}
         aria-label="Change page theme"
