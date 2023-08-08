@@ -75,6 +75,18 @@ export const projectData: ProjectData[] = [
   },
   {
     id: 5,
+    img: "src/img/msa.jpg",
+    name: "Motor Shop - Back End",
+    description:
+      "Esta API foi desenvolvida em equipe e oferece um gerenciamento completo de usuários, uma rota de login e acesso protegido para a criação de anúncios e comentários.",
+    techs: ["Node", "Express", "Prisma", "TypeScript"],
+    links: {
+      demonstration: null,
+      repository: "https://github.com/Typhonn003/motor_shop_api",
+    },
+  },
+  {
+    id: 6,
     img: "src/img/bk.jpg",
     name: "Burguer Kenzie",
     description:
@@ -86,7 +98,7 @@ export const projectData: ProjectData[] = [
     },
   },
   {
-    id: 6,
+    id: 7,
     img: "src/img/om.jpg",
     name: "Open Music",
     description:
