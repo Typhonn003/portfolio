@@ -36,7 +36,7 @@ export const Header = () => {
           Desenvolvedor Web Full Stack
         </h2>
       </div>
-      <p className="max-w-xs mb-6 opacity-70">
+      <p className="max-w-[250px] mb-6 opacity-70 md:max-w-md">
         Meu objetivo é criar produtos acessíveis e inclusivos, proporcionando
         experiências digitais de qualidade para a web.
       </p>
