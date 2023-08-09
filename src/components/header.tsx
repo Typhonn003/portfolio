@@ -26,7 +26,7 @@ export const Header = () => {
       <button
         onClick={toggleDarkMode}
         aria-label="Change page theme"
-        className="text-2xl fixed top-6 right-6 z-30"
+        className="bg-light-blue12 text-light-blue2 p-2 rounded-full text-2xl fixed top-3 right-3 z-30 dark:bg-dark-blue12 dark:text-dark-blue2"
       >
         {isDarkMode ? <BsFillMoonStarsFill /> : <BsFillSunFill />}
       </button>
