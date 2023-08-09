@@ -19,7 +19,7 @@ export const projectData: ProjectData[] = [
     name: "Tech Hub",
     description:
       "A aplicação possibilita o cadastro e login de usuários, com acesso restrito à dashboard mediante autenticação, além de permitir a adição de tecnologias personalizadas ao perfil do usuário.",
-    techs: ["React", "TypeScript", "Styled Components"],
+    techs: ["TypeScript", "Styled Components", "React"],
     links: {
       demonstration: "https://techhubv2.vercel.app/",
       repository: "https://github.com/Typhonn003/tech_hub",
@@ -31,7 +31,7 @@ export const projectData: ProjectData[] = [
     name: "HubLinkup - Back End",
     description:
       "Essa API tem um sistema completo de gerenciamento de usuários, incluindo operações CRUD, e recursos para gerenciar contatos associados a eles, com rotas autenticadas para segurança.",
-    techs: ["Node", "NestJS", "Prisma", "TypeScript"],
+    techs: ["Node", "NestJS", "TypeScript", "Prisma"],
     links: {
       demonstration: null,
       repository: "https://github.com/Typhonn003/HubLinkup_back",
@@ -43,7 +43,7 @@ export const projectData: ProjectData[] = [
     name: "League of Match",
     description:
       "Essa aplicação foi um trabalho em equipe, na qual criamos uma página voltada para jogadores de League of Legends, com o objetivo de facilitar a busca por novos parceiros de jogo.",
-    techs: ["React", "TypeScript", "Styled Components"],
+    techs: ["React", "Styled Components", "TypeScript"],
     links: {
       demonstration: "https://league-of-match-steel.vercel.app/",
       repository: "https://github.com/Typhonn003/react-league-of-match",
@@ -79,7 +79,7 @@ export const projectData: ProjectData[] = [
     name: "Motor Shop - Back End",
     description:
       "Esta API foi desenvolvida em equipe e oferece um gerenciamento completo de usuários, uma rota de login e acesso protegido para a criação de anúncios e comentários.",
-    techs: ["Node", "Express", "Prisma", "TypeScript"],
+    techs: ["Node", "Express", "TypeScript", "Prisma"],
     links: {
       demonstration: null,
       repository: "https://github.com/Typhonn003/motor_shop_api",
@@ -91,7 +91,7 @@ export const projectData: ProjectData[] = [
     name: "Burguer Kenzie",
     description:
       "Essa página de hamburgueria permite ao usuário cadastrar-se, efetuar login para acessar a página principal e adicionar itens do menu ao carrinho de compras.",
-    techs: ["React", "TypeScript", "Styled Components"],
+    techs: ["Styled Components", "React", "TypeScript"],
     links: {
       demonstration: "https://react-entrega-hamburgueria-v2-ty.vercel.app/",
       repository: "https://github.com/Typhonn003/react-burguer-kenzie/",

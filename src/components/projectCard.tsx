@@ -56,11 +56,11 @@ export const ProjectCard = ({ project }: ProjectProps) => {
           <a
             href={demonstration!}
             target="_blank"
-            className={`${
-              !demonstration
+            className={`h-full font-medium flex flex-grow justify-center items-center gap-2 bg-light-blue3 dark:bg-dark-blue3 ${
+              demonstration
                 ? "hover:bg-light-blue3 dark:hover:bg-dark-blue3"
-                : null
-            } h-full font-medium flex flex-grow justify-center items-center gap-2 bg-light-blue3 hover:bg-light-blue4 dark:bg-dark-blue3 dark:hover:bg-dark-blue4`}
+                : ""
+            }`}
           >
             {demonstration ? "Demonstração" : "Indisponível"}
           </a>
