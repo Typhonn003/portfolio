@@ -1,4 +1,4 @@
-import { blue, blueDark, teal, purpleDark } from "@radix-ui/colors";
+import { blue, blueDark } from "@radix-ui/colors";
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -8,11 +8,9 @@ export default {
       colors: {
         light: {
           ...blue,
-          ...teal,
         },
         dark: {
           ...blueDark,
-          ...purpleDark,
         },
       },
       keyframes: {
@@ -26,6 +24,9 @@ export default {
       animation: {
         typeWriter:
           "typing 2s steps(25), blinking 0.5s infinite step-end alternate",
+      },
+      screens: {
+        xs: "520px",
       },
     },
   },
