@@ -1,4 +1,4 @@
-import { techData } from "../utils";
+import { techData } from "../../utils";
 
 interface TechCardProps {
   techName: string;

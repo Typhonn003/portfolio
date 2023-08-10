@@ -1,6 +1,6 @@
-import { projectData } from "../utils/projectData";
-import { ProjectCard } from "./projectCard";
-import { SectionTitle } from "./sectionTitle";
+import { projectData } from "../../utils/projectData";
+import { ProjectCard } from "../cards/ProjectCard";
+import { SectionTitle } from "../layout/SectionTitle";
 
 export const Projects = () => {
   return (

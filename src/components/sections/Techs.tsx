@@ -1,5 +1,5 @@
-import { techList } from "../utils";
-import { TechCard } from "./techCard";
+import { techList } from "../../utils";
+import { TechCard } from "../cards/TechCard";
 import { register } from "swiper/element/bundle";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { BsArrowLeftSquareFill, BsArrowRightSquareFill } from "react-icons/bs";
@@ -7,7 +7,7 @@ import { BsArrowLeftSquareFill, BsArrowRightSquareFill } from "react-icons/bs";
 register();
 import "swiper/css";
 import "swiper/css/bundle";
-import { SectionTitle } from "./sectionTitle";
+import { SectionTitle } from "../layout/SectionTitle";
 
 export const Techs = () => {
   return (

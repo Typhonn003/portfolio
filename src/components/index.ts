@@ -1,6 +1,6 @@
-import { About } from "./about";
-import { Header } from "./header";
-import { Projects } from "./projects";
-import { Techs } from "./techs";
+import { About } from "./sections/About";
+import { Header } from "./layout/Header";
+import { Projects } from "./sections/Projects";
+import { Techs } from "./sections/Techs";
 
 export { About, Header, Projects, Techs };

@@ -1,4 +1,4 @@
-import { SectionTitle } from "./sectionTitle";
+import { SectionTitle } from "../layout/SectionTitle";
 
 export const About = () => {
   return (
