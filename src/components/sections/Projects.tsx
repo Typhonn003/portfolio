@@ -6,7 +6,7 @@ export const Projects = () => {
   return (
     <section className="pb-10">
       <SectionTitle title="Projetos" />
-      <ul className="grid xs:grid-cols-2 gap-6 mobile-width m-auto text-base">
+      <ul className="mobile-width m-auto grid xs:grid-cols-2 gap-6 text-base">
         {projectData.map((project) => (
           <ProjectCard key={project.id} project={project} />
         ))}

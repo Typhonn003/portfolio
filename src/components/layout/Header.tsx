@@ -1,10 +1,5 @@
 import { useEffect, useState } from "react";
-import {
-  BsGithub,
-  BsLinkedin,
-  BsFillSunFill,
-  BsFillMoonStarsFill,
-} from "react-icons/bs";
+import * as Icon from "react-icons/bs";
 
 export const Header = () => {
   const [isDarkMode, setIsDarkMode] = useState(() => {
@@ -25,14 +20,14 @@ export const Header = () => {
     <header className="mobile-width m-auto py-10">
       <button
         onClick={toggleDarkMode}
-        aria-label="Change page theme"
-        className="bg-light-blue12 text-light-blue2 p-2 rounded-full text-2xl fixed top-4 right-4 z-30 dark:bg-dark-blue12 dark:text-dark-blue2"
+        aria-label="Mude o tema da página"
+        className="text-2xl bg-light-blue12 text-light-blue2 p-2 rounded-full fixed top-4 right-4 z-30 dark:bg-dark-blue12 dark:text-dark-blue2"
       >
-        {isDarkMode ? <BsFillMoonStarsFill /> : <BsFillSunFill />}
+        {isDarkMode ? <Icon.BsFillMoonStarsFill /> : <Icon.BsFillSunFill />}
       </button>
       <div>
         <h1 className="text-4xl font-bold mb-2">Diego Lima</h1>
-        <h2 className="text-light-blue11 text-lg font-bold mb-4 border-r-2 border-light-blue11 w-[25ch] whitespace-nowrap overflow-hidden animate-typeWriter dark:text-dark-blue11 dark:border-dark-blue11">
+        <h2 className="text-lg font-bold text-light-blue11 border-r-2 border-light-blue11 w-[25ch] whitespace-nowrap overflow-hidden animate-typeWriter mb-4 dark:text-dark-blue11 dark:border-dark-blue11">
           Desenvolvedor Web Full Stack
         </h2>
       </div>
@@ -53,9 +48,9 @@ export const Header = () => {
             className="text-3xl"
             href="https://github.com/typhonn003"
             target="_blank"
-            aria-label="Access my GitHub profile"
+            aria-label="Acesse meu perfil do GitHub"
           >
-            <BsGithub />
+            <Icon.BsGithub />
           </a>
         </li>
         <li>
@@ -63,9 +58,9 @@ export const Header = () => {
             className="text-3xl"
             href="https://www.linkedin.com/in/typhonn003/"
             target="_blank"
-            aria-label="Access my LinkedIn profile"
+            aria-label="Acesse meu perfil do LinkedIn"
           >
-            <BsLinkedin />
+            <Icon.BsLinkedin />
           </a>
         </li>
       </ul>

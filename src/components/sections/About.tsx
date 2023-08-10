@@ -4,7 +4,7 @@ export const About = () => {
   return (
     <section className="pb-10">
       <SectionTitle title="Sobre mim" />
-      <div className="flex flex-col gap-6 mobile-width m-auto text-base text-light-blue12/70 dark:text-dark-blue12/70">
+      <article className="mobile-width m-auto flex flex-col gap-6 text-base leading-normal text-light-blue12/70 dark:text-dark-blue12/70">
         <p>
           O meu primeiro contato com a tecnologia ocorreu durante a minha
           infância, quando meu pai me levou a uma lanhouse pela primeira vez.
@@ -18,7 +18,7 @@ export const About = () => {
           <a
             href="https://kenzie.com.br/"
             target="_blank"
-            className="font-medium text-light-blue12 dark:text-dark-blue12"
+            className="font-medium text-light-blue12 hover:underline hover:text-light-blue11 dark:text-dark-blue12 dark:hover:text-dark-blue11"
           >
             Kenzie Academy Brasil
           </a>
@@ -33,7 +33,7 @@ export const About = () => {
           oportunidade, para colocar meu talento à prova e contribuir de forma
           significativa.
         </p>
-      </div>
+      </article>
     </section>
   );
 };

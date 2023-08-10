@@ -1,13 +1,13 @@
-import { About, Header, Projects, Techs } from "./components";
+import * as C from "./components";
 
 export const App = () => {
   return (
     <div className="bg-light-blue2 text-light-blue12 dark:bg-dark-blue2 dark:text-dark-blue12">
-      <Header />
+      <C.Header />
       <main>
-        <About />
-        <Techs />
-        <Projects />
+        <C.About />
+        <C.Techs />
+        <C.Projects />
       </main>
     </div>
   );

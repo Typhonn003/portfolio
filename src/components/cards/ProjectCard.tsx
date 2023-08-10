@@ -15,25 +15,25 @@ export const ProjectCard = ({ project }: ProjectProps) => {
   } = project;
 
   return (
-    <li className="list-none w-full flex flex-col shadow-md border border-light-blue7 rounded-md overflow-hidden dark:border-dark-blue7">
+    <li className="w-full flex flex-col list-none rounded-md border border-light-blue7 overflow-hidden shadow-md dark:border-dark-blue7">
       <div className="h-40 border-b border-light-blue7 dark:border-dark-blue7">
         <img
           src={img}
-          alt={`Imagem demonstrativa do projeto ${name}`}
-          className="h-full w-full object-cover object-center"
+          alt={`Imagem de demonstração do projeto ${name}`}
+          className="w-full h-full object-cover object-center"
         />
       </div>
       <div className="flex flex-col gap-3 flex-grow justify-between p-3">
-        <h2 className="font-semibold text-[20px]">{name}</h2>
-        <p className="text-sm flex-grow leading-normal opacity-70">
+        <h2 className="text-xl font-semibold">{name}</h2>
+        <p className="flex-grow text-sm leading-normal opacity-70">
           {description}
         </p>
         <div className="border-b border-light-blue6 dark:border-dark-blue6" />
-        <ul className="text-light-blue12 flex flex-wrap gap-1 cursor-default dark:text-dark-blue12">
+        <ul className="flex flex-wrap gap-1 text-light-blue12 cursor-default dark:text-dark-blue12">
           {techs.map((tech, index) => (
             <li
               key={index}
-              className="text-xs rounded-full px-3 py-2 bg-light-blue11/30 font-medium dark:bg-dark-blue11/30"
+              className="text-xs px-3 py-1.5 rounded-full bg-light-blue11/30 font-medium dark:bg-dark-blue11/30"
             >
               {tech}
             </li>
@@ -45,10 +45,10 @@ export const ProjectCard = ({ project }: ProjectProps) => {
           <a
             href={demonstration!}
             target="_blank"
-            className={`h-full font-medium flex flex-grow justify-center items-center gap-2 ${
+            className={`h-full flex flex-grow justify-center items-center gap-2 font-medium ${
               demonstration
                 ? "bg-light-blue3 dark:bg-dark-blue3 hover:bg-light-blue4 dark:hover:bg-dark-blue4"
-                : "bg-light-blue3 dark:bg-dark-blue3 cursor-not-allowed"
+                : "bg-gray-100 dark:bg-gray-800 cursor-not-allowed"
             }`}
           >
             {demonstration ? "Demonstração" : "Indisponível"}
@@ -58,7 +58,7 @@ export const ProjectCard = ({ project }: ProjectProps) => {
           <a
             href={repository!}
             target="_blank"
-            className="h-full font-medium flex flex-grow justify-center items-center gap-2 bg-light-blue3 hover:bg-light-blue4 dark:bg-dark-blue3 dark:hover:bg-dark-blue4"
+            className="h-full flex flex-grow justify-center items-center gap-2 font-medium bg-light-blue3 hover:bg-light-blue4 dark:bg-dark-blue3 dark:hover:bg-dark-blue4"
           >
             Repositório <BsGithub />
           </a>

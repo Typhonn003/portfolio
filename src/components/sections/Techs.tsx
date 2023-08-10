@@ -14,7 +14,7 @@ export const Techs = () => {
     <section className="pb-10">
       <SectionTitle title="Tecnologias" />
       <Swiper
-        className="mb-6 mobile-width"
+        className="mobile-width mb-6"
         slidesPerView={1}
         spaceBetween={30}
         autoplay={{ delay: 2000 }}
@@ -40,11 +40,11 @@ export const Techs = () => {
           </SwiperSlide>
         ))}
       </Swiper>
-      <div className="mobile-width max-w-md m-auto flex justify-center">
+      <div className="mobile-width m-auto max-w-md flex justify-between">
         <button className="swiper-custom-prev text-4xl">
           <BsArrowLeftSquareFill />
         </button>
-        <div className="swiper-custom-pagination flex flex-wrap gap-2 justify-center self-center" />
+        <div className="swiper-custom-pagination max-w-[55%] flex flex-wrap gap-2 justify-center self-center xs:max-w-full" />
         <button className="swiper-custom-next text-4xl">
           <BsArrowRightSquareFill />
         </button>
