@@ -1,4 +1,4 @@
-import { techList } from "../../utils";
+import { techList } from "../../data";
 import { TechCard } from "../cards/TechCard";
 import { register } from "swiper/element/bundle";
 import { Swiper, SwiperSlide } from "swiper/react";

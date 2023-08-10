@@ -1,4 +1,4 @@
-import { projectData } from "../../utils/projectData";
+import { projectData } from "../../data";
 import { ProjectCard } from "../cards/ProjectCard";
 import { SectionTitle } from "../layout/SectionTitle";
 
