@@ -6,45 +6,32 @@ export const About = () => {
       <SectionTitle title="Sobre mim" />
       <div className="flex flex-col gap-6 mobile-width m-auto text-base text-light-blue12/70 dark:text-dark-blue12/70">
         <p>
-          Em 2008, tive minha{" "}
-          <strong className="font-medium text-light-blue12 dark:text-dark-blue12">
-            primeira experiência
-          </strong>{" "}
-          em desenvolvimento web ao criar um simples blog com meu primo,
-          dedicado ao nosso jogo favorito da época. Embora tenha abandonado o
-          projeto quando os servidores do jogo foram encerrados anos depois, não
-          fazia ideia de que essa{" "}
-          <strong className="font-medium text-light-blue12 dark:text-dark-blue12">
-            breve experiência
-          </strong>{" "}
-          se tornaria parte de algo maior.
+          O meu primeiro contato com a tecnologia ocorreu durante a minha
+          infância, quando meu pai me levou a uma lanhouse pela primeira vez.
+          Desde então, minha paixão pela tecnologia cresceu ano após ano.
         </p>
         <p>
-          Há pouco mais de um ano, meu primo e um amigo, ambos desenvolvedores
-          front-end, me aconselharam a seguir seus passos e iniciar minha
-          jornada de estudos em programação. Então decidi ingressar na{" "}
-          <strong>
-            <a
-              href="https://kenzie.com.br/"
-              target="_blank"
-              className="font-medium text-light-blue12 dark:text-dark-blue12"
-            >
-              Kenzie Academy Brasil
-            </a>
-          </strong>
-          , uma escola de desenvolvimento web com 6 meses dedicados ao front-end
-          e 6 meses ao back-end.
+          Aos 26 anos, me vi perdido na vida, mas essa sensação foi passageira.
+          Meu irmão me incentivou a explorar o básico do desenvolvimento web e,
+          alguns meses depois, um grande amigo que já atuava nessa área sugeriu
+          que eu aprofundasse meus estudos na{" "}
+          <a
+            href="https://kenzie.com.br/"
+            target="_blank"
+            className="font-medium text-light-blue12 dark:text-dark-blue12"
+          >
+            Kenzie Academy Brasil
+          </a>
+          , renomado curso que abrange desde os fundamentos até tecnologias
+          avançadas de front-end e back-end.
         </p>
         <p>
-          Hoje após{" "}
-          <strong className="font-medium text-light-blue12 dark:text-dark-blue12">
-            2 mil horas
-          </strong>{" "}
-          de muito estudo, esforço e dedicação, sou um{" "}
-          <strong className="font-medium text-light-blue12 dark:text-dark-blue12">
-            desenvolver full stack
-          </strong>{" "}
-          formado em busca de sua primeira oportunidade.
+          Hoje, sou um desenvolvedor full stack formado pela Kenzie Academy
+          Brasil. Ao longo de um ano, tive a oportunidade de criar mais de 40
+          projetos, tanto individuais quanto em grupo, e adquiri conhecimento em
+          diversas tecnologias. Agora, estou em busca da minha primeira
+          oportunidade, para colocar meu talento à prova e contribuir de forma
+          significativa.
         </p>
       </div>
     </section>
