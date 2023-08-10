@@ -1,17 +1,7 @@
 import { AiFillHtml5 } from "react-icons/ai";
-import {
-  BiLogoTypescript,
-  BiLogoDjango,
-  BiLogoPostgresql,
-} from "react-icons/bi";
-import { FaCss3Alt, FaNodeJs, FaPython, FaReact } from "react-icons/fa";
-import {
-  SiStyledcomponents,
-  SiTailwindcss,
-  SiExpress,
-  SiNestjs,
-  SiPrisma,
-} from "react-icons/si";
+import * as IconBi from "react-icons/bi";
+import * as IconFa from "react-icons/fa";
+import * as IconSi from "react-icons/si";
 import { RxStitchesLogo } from "react-icons/rx";
 import { RiJavascriptFill } from "react-icons/ri";
 import { TechData } from "../types/techTypes";
@@ -23,7 +13,7 @@ export const techData: TechData = {
     name: "HTML5",
   },
   css: {
-    logo: <FaCss3Alt />,
+    logo: <IconFa.FaCss3Alt />,
     color: "bg-[#3595cf]",
     name: "CSS3",
   },
@@ -33,22 +23,22 @@ export const techData: TechData = {
     name: "JavaScript",
   },
   react: {
-    logo: <FaReact />,
+    logo: <IconFa.FaReact />,
     color: "bg-[#5bd3f3]",
     name: "React",
   },
   typeScript: {
-    logo: <BiLogoTypescript />,
+    logo: <IconBi.BiLogoTypescript />,
     color: "bg-[#2f74c0]",
     name: "TypeScript",
   },
   styledComponents: {
-    logo: <SiStyledcomponents />,
+    logo: <IconSi.SiStyledcomponents />,
     color: "bg-[#db7290]",
     name: "Styled Components",
   },
   tailWind: {
-    logo: <SiTailwindcss />,
+    logo: <IconSi.SiTailwindcss />,
     color: "bg-[#36b7f0]",
     name: "Tailwind CSS",
   },
@@ -58,37 +48,37 @@ export const techData: TechData = {
     name: "Stitches",
   },
   node: {
-    logo: <FaNodeJs />,
+    logo: <IconFa.FaNodeJs />,
     color: "bg-[#8bbf3d]",
     name: "Node.js",
   },
   express: {
-    logo: <SiExpress />,
+    logo: <IconSi.SiExpress />,
     color: "bg-[#313131]",
     name: "Express.js",
   },
   nest: {
-    logo: <SiNestjs />,
+    logo: <IconSi.SiNestjs />,
     color: "bg-[#d9224c]",
     name: "NestJS",
   },
   postgreSql: {
-    logo: <BiLogoPostgresql />,
+    logo: <IconBi.BiLogoPostgresql />,
     color: "bg-[#31648c]",
     name: "PostgreSQL",
   },
   prisma: {
-    logo: <SiPrisma />,
+    logo: <IconSi.SiPrisma />,
     color: "bg-[#0c3249]",
     name: "Prisma",
   },
   python: {
-    logo: <FaPython />,
+    logo: <IconFa.FaPython />,
     color: "bg-[#356d9c]",
     name: "Python",
   },
   django: {
-    logo: <BiLogoDjango />,
+    logo: <IconBi.BiLogoDjango />,
     color: "bg-[#0f3c2d]",
     name: "Django",
   },
