@@ -1,18 +1,5 @@
 import { BsGithub } from "react-icons/bs";
-
-interface Links {
-  demonstration: string | null;
-  repository: string;
-}
-
-interface ProjectData {
-  id: number;
-  img: string;
-  name: string;
-  description: string;
-  techs: string[];
-  links: Links;
-}
+import { ProjectData } from "../../types/projectTypes";
 
 interface ProjectProps {
   project: ProjectData;

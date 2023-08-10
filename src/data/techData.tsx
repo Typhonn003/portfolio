@@ -1,5 +1,3 @@
-import React from "react";
-import { IconBaseProps } from "react-icons";
 import { AiFillHtml5 } from "react-icons/ai";
 import {
   BiLogoTypescript,
@@ -16,14 +14,7 @@ import {
 } from "react-icons/si";
 import { RxStitchesLogo } from "react-icons/rx";
 import { RiJavascriptFill } from "react-icons/ri";
-
-interface TechData {
-  [key: string]: {
-    logo: React.ReactElement<IconBaseProps>;
-    color: string;
-    name: string;
-  };
-}
+import { TechData } from "../types/techTypes";
 
 export const techData: TechData = {
   html: {

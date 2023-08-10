@@ -1,16 +1,4 @@
-interface Links {
-  demonstration: string | null;
-  repository: string;
-}
-
-interface ProjectData {
-  id: number;
-  img: string;
-  name: string;
-  description: string;
-  techs: string[];
-  links: Links;
-}
+import { ProjectData } from "../types/projectTypes";
 
 export const projectData: ProjectData[] = [
   {
