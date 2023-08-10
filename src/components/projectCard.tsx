@@ -33,12 +33,14 @@ export const ProjectCard = ({ project }: ProjectProps) => {
         <img
           src={img}
           alt={`Imagem demonstrativa do projeto ${name}`}
-          className="h-full w-full object-cover object-left-top"
+          className="h-full w-full object-cover object-center"
         />
       </div>
-      <div className="flex flex-col gap-3 justify-between p-3">
+      <div className="flex flex-col gap-3 flex-grow justify-between p-3">
         <h2 className="font-semibold text-[20px]">{name}</h2>
-        <p className="text-sm leading-normal opacity-70">{description}</p>
+        <p className="text-sm flex-grow leading-normal opacity-70">
+          {description}
+        </p>
         <div className="border-b border-light-blue6 dark:border-dark-blue6" />
         <ul className="text-light-blue12 flex flex-wrap gap-1 cursor-default dark:text-dark-blue12">
           {techs.map((tech, index) => (
