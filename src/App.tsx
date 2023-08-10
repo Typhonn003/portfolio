@@ -9,6 +9,7 @@ export const App = () => {
         <C.Techs />
         <C.Projects />
       </main>
+      <C.Footer />
     </div>
   );
 };
