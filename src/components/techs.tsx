@@ -7,13 +7,12 @@ import { BsArrowLeftSquareFill, BsArrowRightSquareFill } from "react-icons/bs";
 register();
 import "swiper/css";
 import "swiper/css/bundle";
+import { SectionTitle } from "./sectionTitle";
 
 export const Techs = () => {
   return (
     <section className="pb-10">
-      <div className="sticky top-0 z-20 py-5 mb-5 backdrop-blur-sm bg-light-blue2/10 dark:bg-dark-blue2/10">
-        <h2 className="mobile-width m-auto text-2xl font-bold">Tecnologias</h2>
-      </div>
+      <SectionTitle title="Tecnologias" />
       <Swiper
         className="mb-6 mobile-width"
         slidesPerView={1}
@@ -27,6 +26,7 @@ export const Techs = () => {
         }}
         keyboard={true}
         mousewheel={true}
+        grabCursor={true}
         breakpoints={{
           600: {
             slidesPerView: 2,

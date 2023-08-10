@@ -26,7 +26,7 @@ export const Header = () => {
       <button
         onClick={toggleDarkMode}
         aria-label="Change page theme"
-        className="bg-light-blue12 text-light-blue2 p-2 rounded-full text-2xl fixed top-3 right-3 z-30 dark:bg-dark-blue12 dark:text-dark-blue2"
+        className="bg-light-blue12 text-light-blue2 p-2 rounded-full text-2xl fixed top-4 right-4 z-30 dark:bg-dark-blue12 dark:text-dark-blue2"
       >
         {isDarkMode ? <BsFillMoonStarsFill /> : <BsFillSunFill />}
       </button>
@@ -36,7 +36,7 @@ export const Header = () => {
           Desenvolvedor Web Full Stack
         </h2>
       </div>
-      <p className="max-w-[250px] mb-6 opacity-70 md:max-w-md">
+      <p className="w-[90%] max-w-md mb-6 opacity-70 md:max-w-md">
         Meu objetivo é criar produtos acessíveis e inclusivos, proporcionando
         experiências digitais de qualidade para a web.
       </p>

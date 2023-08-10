@@ -56,10 +56,10 @@ export const ProjectCard = ({ project }: ProjectProps) => {
           <a
             href={demonstration!}
             target="_blank"
-            className={`h-full font-medium flex flex-grow justify-center items-center gap-2 bg-light-blue3 dark:bg-dark-blue3 ${
+            className={`h-full font-medium flex flex-grow justify-center items-center gap-2 ${
               demonstration
-                ? "hover:bg-light-blue3 dark:hover:bg-dark-blue3"
-                : ""
+                ? "bg-light-blue3 dark:bg-dark-blue3 hover:bg-light-blue4 dark:hover:bg-dark-blue4"
+                : "bg-light-blue3 dark:bg-dark-blue3 cursor-not-allowed"
             }`}
           >
             {demonstration ? "Demonstração" : "Indisponível"}
