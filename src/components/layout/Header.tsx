@@ -17,7 +17,7 @@ export const Header = () => {
   };
 
   return (
-    <header className="mobile-width m-auto py-10">
+    <header className="mobile-width m-auto py-10 lg:h-full lg:py-0 lg:flex lg:flex-col lg:justify-between">
       <button
         onClick={toggleDarkMode}
         aria-label="Mude o tema da página"
@@ -26,15 +26,17 @@ export const Header = () => {
         {isDarkMode ? <Icon.BsFillMoonStarsFill /> : <Icon.BsFillSunFill />}
       </button>
       <div>
-        <h1 className="text-4xl font-bold mb-2">Diego Lima</h1>
-        <h2 className="text-lg font-bold text-light-blue11 border-r-2 border-light-blue11 w-[25ch] whitespace-nowrap overflow-hidden animate-typeWriter mb-4 dark:text-dark-blue11 dark:border-dark-blue11">
-          Desenvolvedor Web Full Stack
-        </h2>
+        <div>
+          <h1 className="text-4xl font-bold mb-2">Diego Lima</h1>
+          <h2 className="text-lg font-bold text-light-blue11 border-r-2 border-light-blue11 w-[25ch] whitespace-nowrap overflow-hidden animate-typeWriter mb-4 dark:text-dark-blue11 dark:border-dark-blue11">
+            Desenvolvedor Web Full Stack
+          </h2>
+        </div>
+        <p className="w-[90%] max-w-md mb-6 opacity-70 md:max-w-md">
+          Meu objetivo é criar produtos acessíveis e inclusivos, proporcionando
+          experiências digitais de qualidade para a web.
+        </p>
       </div>
-      <p className="w-[90%] max-w-md mb-6 opacity-70 md:max-w-md">
-        Meu objetivo é criar produtos acessíveis e inclusivos, proporcionando
-        experiências digitais de qualidade para a web.
-      </p>
       <nav className="hidden">
         <ul>
           <li></li>
