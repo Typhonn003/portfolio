@@ -15,7 +15,7 @@ export const ProjectCard = ({ project }: ProjectProps) => {
   } = project;
 
   return (
-    <li className="group w-full box-border flex flex-col list-none rounded-md border border-light-blue7 overflow-hidden shadow-md dark:border-dark-blue7 hover:border-light-blue8 hover:dark:border-dark-blue8 xs:flex-row xs:hover:!opacity-100 xs:group-hover/list:opacity-50 transition-opacity">
+    <li className="group w-full box-border flex flex-col list-none rounded-md border border-light-blue7 overflow-hidden shadow-md dark:border-dark-blue7 hover:border-light-blue8 hover:dark:border-dark-blue8 xs:flex-row xs:hover:!opacity-100 xs:group-hover/list:opacity-50 transition-opacity bg-gradient-to-b from-light-blue6 to-light-blue3 dark:from-dark-blue6 dark:to-dark-blue3">
       <div className="h-40 border-b border-light-blue7 dark:border-dark-blue7 xs:w-2/4 xs:p-3 xs:border-0 group-hover:border-light-blue8 group-hover:dark:border-dark-blue8 lg:w-2/3">
         <img
           src={img}
@@ -25,7 +25,9 @@ export const ProjectCard = ({ project }: ProjectProps) => {
       </div>
       <div className="xs:w-full">
         <div className="flex flex-col gap-3 flex-grow justify-between p-3">
-          <h2 className="text-xl font-semibold">{name}</h2>
+          <h2 className="text-xl font-semibold group-hover:text-light-blue11 group-hover:dark:text-dark-blue11">
+            {name}
+          </h2>
           <p className="flex-grow text-sm leading-normal opacity-70">
             {description}
           </p>
