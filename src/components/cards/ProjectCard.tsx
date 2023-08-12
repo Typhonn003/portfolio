@@ -15,7 +15,7 @@ export const ProjectCard = ({ project }: ProjectProps) => {
   } = project;
 
   return (
-    <li className="group w-full box-border flex flex-col list-none rounded-md border border-light-blue7 overflow-hidden shadow-md dark:border-dark-blue7 hover:border-light-blue8 hover:dark:border-dark-blue8 xs:flex-row xs:hover:!opacity-100 xs:group-hover/list:opacity-50 transition-opacity bg-gradient-to-b from-light-blue6 to-light-blue3 dark:from-dark-blue6 dark:to-dark-blue3">
+    <li className="group w-full box-border flex flex-col list-none rounded-md border border-light-blue7 overflow-hidden shadow-md dark:border-dark-blue7 hover:border-light-blue8 hover:dark:border-dark-blue8 xs:flex-row xs:hover:!opacity-100 xs:group-hover/list:opacity-50 transition-opacity bg-gradient-to-b from-light-blue6 to-light-blue3 to-90% dark:from-dark-blue6 dark:to-dark-blue3">
       <div className="h-40 border-b border-light-blue7 dark:border-dark-blue7 xs:w-2/4 xs:p-3 xs:border-0 group-hover:border-light-blue8 group-hover:dark:border-dark-blue8 lg:w-2/3">
         <img
           src={img}
