@@ -28,10 +28,26 @@ export const Techs = () => {
         mousewheel={true}
         grabCursor={true}
         breakpoints={{
+          425: {
+            slidesPerView: 2,
+            spaceBetween: 6,
+          },
           600: {
             slidesPerView: 2,
             spaceBetween: 10,
           },
+          700: {
+            slidesPerView: 3,
+            spaceBetween: 10,
+          },
+          1024: {
+            slidesPerView: 2,
+            spaceBetween: 10,
+          },
+          1200: {
+            slidesPerView: 3,
+            spaceBetween: 10,
+          }
         }}
       >
         {techList.map((tech, index) => (
