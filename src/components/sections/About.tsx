@@ -7,14 +7,14 @@ export const About = () => {
       <article className="mobile-width m-auto flex flex-col gap-6 text-base leading-normal text-light-blue12/70 dark:text-dark-blue12/70">
         <p>
           O meu primeiro contato com a tecnologia ocorreu durante a minha
-          infância, quando meu pai me levou a uma lanhouse pela primeira vez.
-          Desde então, minha paixão pela tecnologia cresceu ano após ano.
+          infância, quando meu pai me levou a uma lanhouse pela primeira vez. Eu
+          fiquei fascinado com aquele mundo e desde então, minha paixão pela
+          tecnologia cresceu ano após ano.
         </p>
         <p>
-          Aos 26 anos, me vi perdido na vida, mas essa sensação foi passageira.
-          Meu irmão me incentivou a explorar o básico do desenvolvimento web e,
-          alguns meses depois, um grande amigo que já atuava nessa área sugeriu
-          que eu aprofundasse meus estudos na{" "}
+          Aos 26 anos, meu irmão me incentivou a estudar o básico de
+          desenvolvimento web. Alguns meses depois, um amigo que já atuava na
+          área sugeriu que eu expandisse meus conhecimentos na renomada{" "}
           <a
             href="https://kenzie.com.br/"
             target="_blank"
@@ -22,16 +22,22 @@ export const About = () => {
           >
             Kenzie Academy Brasil
           </a>
-          , renomado curso que abrange desde os fundamentos até tecnologias
+          , um curso abrangente que engloba desde os fundamentos até tecnologias
           avançadas de front-end e back-end.
         </p>
         <p>
-          Hoje, sou um desenvolvedor full stack formado pela Kenzie Academy
-          Brasil. Ao longo de um ano, tive a oportunidade de criar mais de 40
-          projetos, tanto individuais quanto em grupo, e adquiri conhecimento em
-          diversas tecnologias. Agora, estou em busca da minha primeira
-          oportunidade, para colocar meu talento à prova e contribuir de forma
-          significativa.
+          Hoje,{" "}
+          <strong className="text-light-blue12 dark:text-dark-blue12">
+            sou um desenvolvedor full stack formado
+          </strong>{" "}
+          pela Kenzie Academy Brasil. Durante um ano de estudos intensos, criei{" "}
+          <strong className="text-light-blue12 dark:text-dark-blue12">
+            mais de 40 projetos individuais e em grupo
+          </strong>
+          , adquirindo proficiência em diversas tecnologias. Agora, estou em
+          busca da minha primeira oportunidade para colocar meu talento à prova
+          e contribuir significativamente com o conhecimento que adquiri ao
+          longo dessa jornada
         </p>
       </article>
     </section>
