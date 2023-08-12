@@ -1,30 +1,10 @@
-import { useEffect, useState } from "react";
 import * as Icon from "react-icons/bs";
+import { ThemeButton } from "../ui/ThemeButton";
 
 export const Header = () => {
-  const [isDarkMode, setIsDarkMode] = useState(() => {
-    const storedDarkMode = localStorage.getItem("isDarkMode");
-    return storedDarkMode === "true";
-  });
-
-  useEffect(() => {
-    document.documentElement.classList.toggle("dark", isDarkMode);
-    localStorage.setItem("isDarkMode", String(isDarkMode));
-  }, [isDarkMode]);
-
-  const toggleDarkMode = () => {
-    setIsDarkMode((oldValue) => !oldValue);
-  };
-
   return (
     <header className="mobile-width m-auto py-10 lg:h-full lg:py-0 lg:flex lg:flex-col lg:justify-between">
-      <button
-        onClick={toggleDarkMode}
-        aria-label="Mude o tema da página"
-        className="text-2xl bg-light-blue12 text-light-blue2 p-2 rounded-full fixed top-4 right-4 z-50 dark:bg-dark-blue12 dark:text-dark-blue2 lg:top-6 lg:right-6"
-      >
-        {isDarkMode ? <Icon.BsFillMoonStarsFill /> : <Icon.BsFillSunFill />}
-      </button>
+      <ThemeButton />
       <div>
         <div>
           <h1 className="text-4xl font-bold mb-2">Diego Lima</h1>

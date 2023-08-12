@@ -1,3 +1,5 @@
+import { BackToTopButton } from "../ui/BackToTopButton";
+
 export const Footer = () => {
   return (
     <footer className="mobile-width m-auto text-center text-sm leading-normal text-light-blue12/70 pb-10 dark:text-dark-blue12/70 lg:text-left lg:pb-0">
@@ -45,6 +47,7 @@ export const Footer = () => {
         </p>
       </div>
       <p className="self-end">© Diego Lima 2023</p>
+      <BackToTopButton />
     </footer>
   );
 };
