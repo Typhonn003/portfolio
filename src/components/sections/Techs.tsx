@@ -2,7 +2,7 @@ import { techList } from "../../data";
 import { TechCard } from "../cards/TechCard";
 import { register } from "swiper/element/bundle";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { BsArrowLeftSquareFill, BsArrowRightSquareFill } from "react-icons/bs";
+import * as Icon from "react-icons/sl";
 
 register();
 import "swiper/css";
@@ -58,11 +58,11 @@ export const Techs = () => {
       </Swiper>
       <div className="mobile-width m-auto max-w-md flex justify-between">
         <button className="swiper-custom-prev text-4xl">
-          <BsArrowLeftSquareFill />
+          <Icon.SlArrowLeft />
         </button>
-        <div className="swiper-custom-pagination max-w-[55%] flex flex-wrap gap-2 justify-center self-center xs:max-w-full" />
+        <div className="swiper-custom-pagination max-w-[65%] flex flex-wrap gap-2 justify-center self-center xs:max-w-full" />
         <button className="swiper-custom-next text-4xl">
-          <BsArrowRightSquareFill />
+          <Icon.SlArrowRight />
         </button>
       </div>
     </section>
