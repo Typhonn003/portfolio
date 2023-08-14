@@ -19,28 +19,32 @@ export const Header = () => {
         </p>
         <NavBar />
       </div>
-      <ul className="flex gap-5">
-        <li>
-          <a
-            className="text-3xl"
-            href="https://github.com/typhonn003"
-            target="_blank"
-            aria-label="Acesse meu perfil do GitHub"
-          >
-            <Icon.BsGithub />
-          </a>
-        </li>
-        <li>
-          <a
-            className="text-3xl"
-            href="https://www.linkedin.com/in/typhonn003/"
-            target="_blank"
-            aria-label="Acesse meu perfil do LinkedIn"
-          >
-            <Icon.BsLinkedin />
-          </a>
-        </li>
-      </ul>
+      <nav aria-label="Lista de links para minhas redes">
+        <ul className="flex gap-4">
+          <li>
+            <a
+              className="text-3xl lg:text-xl lg:flex lg:items-center lg:gap-2 lg:px-5 lg:py-2 lg:rounded-md lg:bg-light-blue3 lg:border lg:border-light-blue7 lg:hover:bg-light-blue4 lg:hover:border-light-blue8 lg:dark:bg-dark-blue3 lg:dark:border-dark-blue7 lg:dark:hover:bg-dark-blue4 lg:dark:hover:border-dark-blue8"
+              href="https://github.com/typhonn003"
+              target="_blank"
+              aria-label="Acesse meu perfil do GitHub"
+            >
+              <span className="hidden lg:block">GitHub</span>
+              <Icon.BsGithub />
+            </a>
+          </li>
+          <li>
+            <a
+              className="text-3xl lg:text-xl lg:flex lg:items-center lg:gap-2 lg:px-5 lg:py-2 lg:rounded-md lg:bg-light-blue3 lg:border lg:border-light-blue7 lg:hover:bg-light-blue4 lg:hover:border-light-blue8 lg:dark:bg-dark-blue3 lg:dark:border-dark-blue7 lg:dark:hover:bg-dark-blue4 lg:dark:hover:border-dark-blue8"
+              href="https://www.linkedin.com/in/typhonn003/"
+              target="_blank"
+              aria-label="Acesse meu perfil do LinkedIn"
+            >
+              <span className="hidden lg:block">LinkedIn</span>
+              <Icon.BsLinkedin />
+            </a>
+          </li>
+        </ul>
+      </nav>
     </header>
   );
 };
