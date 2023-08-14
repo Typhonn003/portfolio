@@ -2,7 +2,7 @@ import { BackToTopButton } from "../ui/BackToTopButton";
 
 export const Footer = () => {
   return (
-    <footer className="mobile-width m-auto text-center text-sm leading-normal text-light-blue12/70 pb-10 dark:text-dark-blue12/70 lg:text-left lg:pb-0">
+    <footer className="container-width m-auto text-center text-sm leading-normal text-light-blue12/70 pb-10 dark:text-dark-blue12/70 lg:text-left lg:pb-0">
       <div className="lg:flex lg:flex-wrap">
         <p className="lg:mr-1">
           Desenvolvido por{" "}

@@ -14,7 +14,7 @@ export const Techs = () => {
     <section className="pb-10" id="techs">
       <SectionTitle title="Tecnologias" />
       <Swiper
-        className="mobile-width mb-6"
+        className="container-width mb-6"
         slidesPerView={1}
         spaceBetween={30}
         autoplay={{ delay: 2000, disableOnInteraction: false }}
@@ -56,7 +56,7 @@ export const Techs = () => {
           </SwiperSlide>
         ))}
       </Swiper>
-      <div className="mobile-width m-auto max-w-md flex justify-between">
+      <div className="container-width m-auto max-w-md flex justify-between">
         <button className="swiper-custom-prev text-4xl">
           <Icon.SlArrowLeft />
         </button>

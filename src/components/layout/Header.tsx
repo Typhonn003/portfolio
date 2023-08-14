@@ -4,7 +4,7 @@ import { NavBar } from "./NavBar";
 
 export const Header = () => {
   return (
-    <header className="mobile-width m-auto py-10 lg:h-full lg:py-0 lg:flex lg:flex-col lg:justify-between">
+    <header className="container-width m-auto py-10 lg:h-full lg:py-0 lg:flex lg:flex-col lg:justify-between">
       <ThemeButton />
       <div>
         <div>

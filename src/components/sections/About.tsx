@@ -4,7 +4,7 @@ export const About = () => {
   return (
     <section className="pb-10" id="about">
       <SectionTitle title="Sobre mim" />
-      <article className="mobile-width m-auto flex flex-col gap-6 text-base leading-normal text-light-blue12/70 dark:text-dark-blue12/70">
+      <article className="container-width m-auto flex flex-col gap-6 text-base leading-normal text-light-blue12/70 dark:text-dark-blue12/70">
         <p>
           O meu primeiro contato com a tecnologia ocorreu durante a minha
           infância, quando meu pai me levou a uma lanhouse pela primeira vez. Eu
