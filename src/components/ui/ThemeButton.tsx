@@ -10,6 +10,16 @@ export const ThemeButton = () => {
   useEffect(() => {
     document.documentElement.classList.toggle("dark", isDarkMode);
     localStorage.setItem("isDarkMode", String(isDarkMode));
+
+    const favicon = document.querySelector<HTMLLinkElement>(
+      'link[rel="shortcut icon"]'
+    );
+
+    if (isDarkMode) {
+      favicon!.href = "/src/img/dark-favicon.ico";
+    } else {
+      favicon!.href = "/src/img/favicon.ico";
+    }
   }, [isDarkMode]);
 
   const toggleDarkMode = () => {
