@@ -17,7 +17,7 @@ export const Techs = () => {
         className="mobile-width mb-6"
         slidesPerView={1}
         spaceBetween={30}
-        autoplay={{ delay: 2000 }}
+        autoplay={{ delay: 2000, disableOnInteraction: false }}
         loop={true}
         pagination={{ clickable: true, el: ".swiper-custom-pagination" }}
         navigation={{
@@ -50,8 +50,8 @@ export const Techs = () => {
           },
         }}
       >
-        {techList.map((tech, index) => (
-          <SwiperSlide key={index}>
+        {techList.map((tech) => (
+          <SwiperSlide key={tech}>
             <TechCard techName={tech} />
           </SwiperSlide>
         ))}
