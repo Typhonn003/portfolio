@@ -30,7 +30,7 @@ export const ThemeButton = () => {
     <button
       onClick={toggleDarkMode}
       aria-label="Mude o tema da página"
-      className="text-2xl bg-light-blue12 text-light-blue2 p-2 rounded-full fixed top-4 right-4 z-50 dark:bg-dark-blue12 dark:text-dark-blue2 lg:top-6 lg:right-6"
+      className="btn-style text-2xl p-2 rounded-full fixed top-4 right-4 z-50 lg:shadow-md lg:top-6 lg:right-6"
     >
       {isDarkMode ? <Icon.BsFillMoonStarsFill /> : <Icon.BsFillSunFill />}
     </button>

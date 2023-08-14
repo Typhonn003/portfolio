@@ -23,7 +23,7 @@ export const Header = () => {
         <ul className="flex gap-4">
           <li>
             <a
-              className="text-3xl lg:text-base lg:font-medium lg:flex lg:items-center lg:gap-2 lg:px-5 lg:py-2 lg:rounded-md lg:bg-gradient-to-b lg:from-light-blue2 lg:to-light-blue4 lg:border lg:border-light-blue7 lg:hover:from-light-blue3 lg:hover:to-light-blue5 lg:hover:border-light-blue8 lg:dark:from-dark-blue4 lg:dark:to-dark-blue2 lg:dark:border-dark-blue7 lg:dark:hover:from-dark-blue5 lg:dark:hover:to-dark-blue3 lg:dark:hover:border-dark-blue8"
+              className="text-3xl lg:btn-style lg:text-base lg:font-medium lg:flex lg:items-center lg:gap-2 lg:px-5 lg:py-2 lg:rounded-md"
               href="https://github.com/typhonn003"
               target="_blank"
               aria-label="Acesse meu perfil do GitHub"
@@ -34,7 +34,7 @@ export const Header = () => {
           </li>
           <li>
             <a
-              className="text-3xl lg:text-base lg:font-medium lg:flex lg:items-center lg:gap-2 lg:px-5 lg:py-2 lg:rounded-md lg:bg-gradient-to-b lg:from-light-blue2 lg:to-light-blue4 lg:border lg:border-light-blue7 lg:hover:from-light-blue3 lg:hover:to-light-blue5 lg:hover:border-light-blue8 lg:dark:from-dark-blue4 lg:dark:to-dark-blue2 lg:dark:border-dark-blue7 lg:dark:hover:from-dark-blue5 lg:dark:hover:to-dark-blue3 lg:dark:hover:border-dark-blue8"
+              className="text-3xl lg:btn-style lg:text-base lg:font-medium lg:flex lg:items-center lg:gap-2 lg:px-5 lg:py-2 lg:rounded-md"
               href="https://www.linkedin.com/in/typhonn003/"
               target="_blank"
               aria-label="Acesse meu perfil do LinkedIn"
