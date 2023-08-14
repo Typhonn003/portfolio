@@ -2,13 +2,13 @@ import { SectionTitle } from "../layout/SectionTitle";
 
 export const About = () => {
   return (
-    <section className="pb-10">
+    <section className="pb-10" id="about">
       <SectionTitle title="Sobre mim" />
       <article className="mobile-width m-auto flex flex-col gap-6 text-base leading-normal text-light-blue12/70 dark:text-dark-blue12/70">
         <p>
           O meu primeiro contato com a tecnologia ocorreu durante a minha
           infância, quando meu pai me levou a uma lanhouse pela primeira vez. Eu
-          fiquei fascinado com aquele mundo e desde então, minha paixão pela
+          fiquei fascinado com aquele mundo e desde então, minha paixão por
           tecnologia cresceu ano após ano.
         </p>
         <p>

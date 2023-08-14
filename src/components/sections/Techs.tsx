@@ -11,7 +11,7 @@ import { SectionTitle } from "../layout/SectionTitle";
 
 export const Techs = () => {
   return (
-    <section className="pb-10">
+    <section className="pb-10" id="techs">
       <SectionTitle title="Tecnologias" />
       <Swiper
         className="mobile-width mb-6"
@@ -47,7 +47,7 @@ export const Techs = () => {
           1200: {
             slidesPerView: 3,
             spaceBetween: 10,
-          }
+          },
         }}
       >
         {techList.map((tech, index) => (

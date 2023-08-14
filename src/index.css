@@ -19,3 +19,13 @@
     @apply text-light-blue12 dark:text-dark-blue12;
   }
 }
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 40px;
+}
+
+.active-scroll-spy {
+  width: 70px;
+  height: 2px;
+}
