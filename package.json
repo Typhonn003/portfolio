@@ -13,7 +13,9 @@
     "@radix-ui/colors": "^0.1.8",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-icons": "^4.9.0"
+    "react-icons": "^4.9.0",
+    "react-ui-scrollspy": "^2.3.0",
+    "swiper": "^10.0.4"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",
