@@ -1,12 +1,10 @@
 import * as Icon from "react-icons/bs";
-import { ThemeButton } from "../ui/ThemeButton";
 import { NavBar } from "./NavBar";
 import { TypeAnimation } from "react-type-animation";
 
 export const Header = () => {
   return (
     <header className="container-width m-auto py-10 lg:h-full lg:py-0 lg:flex lg:flex-col lg:justify-between lg:w-full">
-      <ThemeButton />
       <div>
         <div>
           <h1 className="text-4xl font-bold mb-2 lg:text-5xl">Diego Lima</h1>
