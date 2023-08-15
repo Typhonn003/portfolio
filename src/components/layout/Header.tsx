@@ -23,7 +23,7 @@ export const Header = () => {
             repeat={Infinity}
           />
         </div>
-        <p className="w-[90%] max-w-md mb-6 opacity-70 md:max-w-md lg:max-w-xs">
+        <p className="w-[90%] mb-6 opacity-70 md:w-[460px] lg:w-[90%] xl:w-[80%]">
           Meu objetivo é criar produtos acessíveis e inclusivos, proporcionando
           experiências digitais de qualidade para a web.
         </p>
