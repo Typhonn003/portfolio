@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import * as Icon from "react-icons/bs";
+import * as Img from "../../img";
 
 export const ThemeButton = () => {
   const [isDarkMode, setIsDarkMode] = useState(() => {
@@ -16,9 +17,9 @@ export const ThemeButton = () => {
     );
 
     if (isDarkMode) {
-      favicon!.href = "/src/img/favicon-dark.ico";
+      favicon!.href = Img.favIconDark;
     } else {
-      favicon!.href = "/src/img/favicon.ico";
+      favicon!.href = Img.favIcon;
     }
   }, [isDarkMode]);
 
