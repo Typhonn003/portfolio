@@ -16,7 +16,7 @@ export const ThemeButton = () => {
     );
 
     if (isDarkMode) {
-      favicon!.href = "/src/img/dark-favicon.ico";
+      favicon!.href = "/src/img/favicon-dark.ico";
     } else {
       favicon!.href = "/src/img/favicon.ico";
     }
