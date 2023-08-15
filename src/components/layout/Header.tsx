@@ -1,6 +1,7 @@
 import * as Icon from "react-icons/bs";
 import { ThemeButton } from "../ui/ThemeButton";
 import { NavBar } from "./NavBar";
+import { TypeAnimation } from "react-type-animation";
 
 export const Header = () => {
   return (
@@ -9,9 +10,20 @@ export const Header = () => {
       <div>
         <div>
           <h1 className="text-4xl font-bold mb-2 lg:text-5xl">Diego Lima</h1>
-          <h2 className="text-lg font-bold text-light-blue11 border-r-2 border-light-blue11 w-[25ch] whitespace-nowrap overflow-hidden animate-typeWriter mb-4 dark:text-dark-blue11 dark:border-dark-blue11 lg:text-xl">
-            Desenvolvedor Web Full Stack
-          </h2>
+          <TypeAnimation
+            sequence={[
+              "Desenvolvedor Front End",
+              2000,
+              "Desenvolvedor Back End",
+              2000,
+              "Desenvolvedor Full Stack",
+              2000,
+            ]}
+            wrapper="h2"
+            className="text-xl font-semibold text-light-blue11 mb-4 dark:text-dark-blue11 lg:text-2xl"
+            speed={50}
+            repeat={Infinity}
+          />
         </div>
         <p className="w-[90%] max-w-md mb-6 opacity-70 md:max-w-md lg:max-w-xs">
           Meu objetivo é criar produtos acessíveis e inclusivos, proporcionando
