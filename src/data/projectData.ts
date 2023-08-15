@@ -3,7 +3,7 @@ import { ProjectData } from "../types/projectTypes";
 export const projectData: ProjectData[] = [
   {
     id: 0,
-    img: "src/img/th.jpg",
+    img: "src/img/project-th.jpg",
     name: "Tech Hub",
     description:
       "A aplicação possibilita o cadastro e login de usuários, com acesso restrito à dashboard mediante autenticação, além de permitir a adição de tecnologias personalizadas ao perfil do usuário.",
@@ -15,7 +15,7 @@ export const projectData: ProjectData[] = [
   },
   {
     id: 1,
-    img: "src/img/hl.jpg",
+    img: "src/img/project-hl.jpg",
     name: "HubLinkup - Back End",
     description:
       "Essa API tem um sistema completo de gerenciamento de usuários, incluindo operações CRUD, e recursos para gerenciar contatos associados a eles, com rotas autenticadas para segurança.",
@@ -27,7 +27,7 @@ export const projectData: ProjectData[] = [
   },
   {
     id: 2,
-    img: "src/img/lom.jpg",
+    img: "src/img/project-lom.jpg",
     name: "League of Match",
     description:
       "Essa aplicação foi um trabalho em equipe, na qual criamos uma página voltada para jogadores de League of Legends, com o objetivo de facilitar a busca por novos parceiros de jogo.",
@@ -39,7 +39,7 @@ export const projectData: ProjectData[] = [
   },
   {
     id: 3,
-    img: "src/img/nk.jpg",
+    img: "src/img/project-nk.jpg",
     name: "Nu Klone",
     description:
       "O projeto é uma aplicação simples de finanças, permitindo acesso à dashboard, cadastro de entradas e saídas de valores, além de visualização do saldo total em conta.",
@@ -51,7 +51,7 @@ export const projectData: ProjectData[] = [
   },
   {
     id: 4,
-    img: "src/img/gcc.jpg",
+    img: "src/img/project-gcc.jpg",
     name: "Gimba Cupons Clone",
     description:
       "Esse projeto faz parte de um antigo teste técnico, no qual foi clonada com exatidão a página original, com foco em mobile first e preservando todas as funcionalidades do projeto original.",
@@ -63,7 +63,7 @@ export const projectData: ProjectData[] = [
   },
   {
     id: 5,
-    img: "src/img/msa.jpg",
+    img: "src/img/project-msa.jpg",
     name: "Motor Shop - Back End",
     description:
       "Esta API foi desenvolvida em equipe e oferece um gerenciamento completo de usuários, uma rota de login e acesso protegido para a criação de anúncios e comentários.",
@@ -75,7 +75,7 @@ export const projectData: ProjectData[] = [
   },
   {
     id: 6,
-    img: "src/img/bk.jpg",
+    img: "src/img/project-bk.jpg",
     name: "Burguer Kenzie",
     description:
       "Essa página de hamburgueria permite ao usuário cadastrar-se, efetuar login para acessar a página principal e adicionar itens do menu ao carrinho de compras.",
@@ -87,7 +87,7 @@ export const projectData: ProjectData[] = [
   },
   {
     id: 7,
-    img: "src/img/om.jpg",
+    img: "src/img/project-om.jpg",
     name: "Open Music",
     description:
       "Um projeto simples para praticar a criação de elementos pelo DOM, no qual são listadas algumas músicas e o usuário pode pesquisar pelo valor ou pelas tags disponíveis.",
