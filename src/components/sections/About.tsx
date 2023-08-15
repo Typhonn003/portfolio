@@ -2,7 +2,7 @@ import { SectionTitle } from "../layout/SectionTitle";
 
 export const About = () => {
   return (
-    <section className="pb-10" id="about">
+    <section className="pb-6 lg:pb-24" id="about">
       <SectionTitle title="Sobre mim" />
       <article className="container-width m-auto flex flex-col gap-6 text-base leading-normal text-light-blue12/70 dark:text-dark-blue12/70 lg:w-full">
         <p>
