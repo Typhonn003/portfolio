@@ -5,7 +5,7 @@ import { TypeAnimation } from "react-type-animation";
 
 export const Header = () => {
   return (
-    <header className="container-width m-auto py-10 lg:h-full lg:py-0 lg:flex lg:flex-col lg:justify-between">
+    <header className="container-width m-auto py-10 lg:h-full lg:py-0 lg:flex lg:flex-col lg:justify-between lg:w-full">
       <ThemeButton />
       <div>
         <div>
