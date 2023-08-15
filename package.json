@@ -11,9 +11,11 @@
   },
   "dependencies": {
     "@radix-ui/colors": "^0.1.8",
+    "prop-types": "^15.5.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.9.0",
+    "react-type-animation": "^3.1.0",
     "react-ui-scrollspy": "^2.3.0",
     "swiper": "^10.0.4"
   },

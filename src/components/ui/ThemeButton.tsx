@@ -16,7 +16,7 @@ export const ThemeButton = () => {
     );
 
     if (isDarkMode) {
-      favicon!.href = "/src/img/dark-favicon.ico";
+      favicon!.href = "/src/img/favicon-dark.ico";
     } else {
       favicon!.href = "/src/img/favicon.ico";
     }
@@ -30,7 +30,7 @@ export const ThemeButton = () => {
     <button
       onClick={toggleDarkMode}
       aria-label="Mude o tema da página"
-      className="btn-style text-2xl p-2 rounded-full fixed top-4 right-4 z-50 lg:shadow-md lg:top-6 lg:right-6"
+      className="btn-style border border-light-blue7 text-2xl p-2 rounded-full fixed top-4 right-4 z-50 hover:border-light-blue8 dark:border-dark-blue7 dark:hover:border-dark-blue8 lg:shadow-md lg:top-6 lg:right-6"
     >
       {isDarkMode ? <Icon.BsFillMoonStarsFill /> : <Icon.BsFillSunFill />}
     </button>

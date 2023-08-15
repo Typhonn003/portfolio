@@ -16,11 +16,11 @@ export const ProjectCard = ({ project }: ProjectProps) => {
 
   return (
     <li className="group w-full box-border flex flex-col list-none rounded-md border border-light-blue7 overflow-hidden shadow-md dark:border-dark-blue7 hover:border-light-blue8 hover:dark:border-dark-blue8 xs:flex-row xs:hover:!opacity-100 xs:group-hover/list:opacity-50 transition-opacity bg-gradient-to-b from-light-blue6 to-light-blue3 to-90% dark:from-dark-blue6 dark:to-dark-blue3">
-      <div className="h-40 border-b border-light-blue7 dark:border-dark-blue7 xs:w-2/4 xs:p-3 xs:border-0 group-hover:border-light-blue8 group-hover:dark:border-dark-blue8 lg:w-2/3">
+      <div className="h-40 border-b border-light-blue7 dark:border-dark-blue7 xs:w-3/6 xs:p-3 xs:border-0 group-hover:border-light-blue8 group-hover:dark:border-dark-blue8 lg:w-2/3">
         <img
           src={img}
           alt={`Imagem de demonstração do projeto ${name}`}
-          className="w-full h-full object-cover object-center xs:border-2 xs:border-light-blue7 xs:max-w-sm xs:max-h-40 xs:rounded-md xs:dark:border-dark-blue7 group-hover:border-light-blue8 group-hover:dark:border-dark-blue8"
+          className="w-full h-full object-cover object-center xs:border-2 xs:border-light-blue7 xs:aspect-video xs:rounded-md xs:dark:border-dark-blue7 group-hover:border-light-blue8 group-hover:dark:border-dark-blue8"
         />
       </div>
       <div className="xs:w-full">
@@ -45,23 +45,25 @@ export const ProjectCard = ({ project }: ProjectProps) => {
         </div>
         <ul className="flex h-10 border-t border-light-blue7 dark:border-dark-blue7 xs:border-0 group-hover:border-light-blue8 group-hover:dark:border-dark-blue8">
           <li className="flex flex-grow justify-center items-center border-r border-light-blue7 dark:border-dark-blue7 xs:overflow-hidden xs:border-l xs:border-t xs:rounded-tl-md group-hover:border-light-blue8 group-hover:dark:border-dark-blue8">
-            <a
-              href={demonstration!}
-              target="_blank"
-              className={`h-full flex flex-grow justify-center items-center gap-2 font-medium ${
-                demonstration
-                  ? "bg-light-blue3 dark:bg-dark-blue3 hover:bg-light-blue4 dark:hover:bg-dark-blue4"
-                  : "bg-gray-100 dark:bg-gray-800 cursor-not-allowed"
-              }`}
-            >
-              {demonstration ? "Demonstração" : "Indisponível"}
-            </a>
+            {demonstration ? (
+              <a
+                href={demonstration}
+                target="_blank"
+                className="btn-style h-full flex flex-grow justify-center items-center gap-2 font-medium"
+              >
+                Demonstração
+              </a>
+            ) : (
+              <span className="h-full flex flex-grow justify-center items-center font-medium bg-gray-100 dark:bg-gray-800 cursor-not-allowed">
+                Indisponível
+              </span>
+            )}
           </li>
           <li className="flex flex-grow justify-center items-center xs:border-t xs:border-light-blue7 xs:dark:border-dark-blue7 group-hover:border-light-blue8 group-hover:dark:border-dark-blue8">
             <a
               href={repository!}
               target="_blank"
-              className="h-full flex flex-grow justify-center items-center gap-2 font-medium bg-light-blue3 hover:bg-light-blue4 dark:bg-dark-blue3 dark:hover:bg-dark-blue4"
+              className="btn-style h-full flex flex-grow justify-center items-center gap-2 font-medium"
             >
               Repositório <BsGithub />
             </a>

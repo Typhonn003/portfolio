@@ -11,10 +11,10 @@ import { SectionTitle } from "../layout/SectionTitle";
 
 export const Techs = () => {
   return (
-    <section className="pb-10" id="techs">
+    <section className="pb-6 lg:pb-24" id="techs">
       <SectionTitle title="Tecnologias" />
       <Swiper
-        className="container-width mb-6"
+        className="container-width mb-6 lg:w-full"
         slidesPerView={1}
         spaceBetween={30}
         autoplay={{ delay: 2000, disableOnInteraction: false }}
@@ -56,7 +56,7 @@ export const Techs = () => {
           </SwiperSlide>
         ))}
       </Swiper>
-      <div className="container-width m-auto max-w-md flex justify-between">
+      <div className="container-width m-auto max-w-md flex justify-between lg:w-full">
         <button className="swiper-custom-prev text-4xl">
           <Icon.SlArrowLeft />
         </button>

@@ -7,7 +7,7 @@ export const projectData: ProjectData[] = [
     name: "Tech Hub",
     description:
       "A aplicação possibilita o cadastro e login de usuários, com acesso restrito à dashboard mediante autenticação, além de permitir a adição de tecnologias personalizadas ao perfil do usuário.",
-    techs: ["TypeScript", "Styled Components", "React"],
+    techs: ["React", "TypeScript", "Styled Components"],
     links: {
       demonstration: "https://techhubv2.vercel.app/",
       repository: "https://github.com/Typhonn003/tech_hub",
@@ -31,7 +31,7 @@ export const projectData: ProjectData[] = [
     name: "League of Match",
     description:
       "Essa aplicação foi um trabalho em equipe, na qual criamos uma página voltada para jogadores de League of Legends, com o objetivo de facilitar a busca por novos parceiros de jogo.",
-    techs: ["React", "Styled Components", "TypeScript"],
+    techs: ["React", "TypeScript", "Styled Components"],
     links: {
       demonstration: "https://league-of-match-steel.vercel.app/",
       repository: "https://github.com/Typhonn003/react-league-of-match",
@@ -79,7 +79,7 @@ export const projectData: ProjectData[] = [
     name: "Burguer Kenzie",
     description:
       "Essa página de hamburgueria permite ao usuário cadastrar-se, efetuar login para acessar a página principal e adicionar itens do menu ao carrinho de compras.",
-    techs: ["Styled Components", "React", "TypeScript"],
+    techs: ["React", "TypeScript", "Styled Components"],
     links: {
       demonstration: "https://react-entrega-hamburgueria-v2-ty.vercel.app/",
       repository: "https://github.com/Typhonn003/react-burguer-kenzie/",
