@@ -18,7 +18,7 @@ export const TechCard = ({ techName }: TechCardProps) => {
         {logo}
       </div>
       <div className="h-20 flex justify-center items-center">
-        <h2 className="text-white text-3xl font-bold text-center">{name}</h2>
+        <h2 className="text-white text-2xl font-bold text-center">{name}</h2>
       </div>
     </div>
   );
