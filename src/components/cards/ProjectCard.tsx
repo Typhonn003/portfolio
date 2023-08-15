@@ -45,23 +45,25 @@ export const ProjectCard = ({ project }: ProjectProps) => {
         </div>
         <ul className="flex h-10 border-t border-light-blue7 dark:border-dark-blue7 xs:border-0 group-hover:border-light-blue8 group-hover:dark:border-dark-blue8">
           <li className="flex flex-grow justify-center items-center border-r border-light-blue7 dark:border-dark-blue7 xs:overflow-hidden xs:border-l xs:border-t xs:rounded-tl-md group-hover:border-light-blue8 group-hover:dark:border-dark-blue8">
-            <a
-              href={demonstration!}
-              target="_blank"
-              className={`h-full flex flex-grow justify-center items-center gap-2 font-medium ${
-                demonstration
-                  ? "bg-light-blue3 dark:bg-dark-blue3 hover:bg-light-blue4 dark:hover:bg-dark-blue4"
-                  : "bg-gray-100 dark:bg-gray-800 cursor-not-allowed"
-              }`}
-            >
-              {demonstration ? "Demonstração" : "Indisponível"}
-            </a>
+            {demonstration ? (
+              <a
+                href={demonstration}
+                target="_blank"
+                className="btn-style h-full flex flex-grow justify-center items-center gap-2 font-medium"
+              >
+                Demonstração
+              </a>
+            ) : (
+              <span className="h-full flex flex-grow justify-center items-center font-medium bg-gray-100 dark:bg-gray-800 cursor-not-allowed">
+                Indisponível
+              </span>
+            )}
           </li>
           <li className="flex flex-grow justify-center items-center xs:border-t xs:border-light-blue7 xs:dark:border-dark-blue7 group-hover:border-light-blue8 group-hover:dark:border-dark-blue8">
             <a
               href={repository!}
               target="_blank"
-              className="h-full flex flex-grow justify-center items-center gap-2 font-medium bg-light-blue3 hover:bg-light-blue4 dark:bg-dark-blue3 dark:hover:bg-dark-blue4"
+              className="btn-style h-full flex flex-grow justify-center items-center gap-2 font-medium"
             >
               Repositório <BsGithub />
             </a>

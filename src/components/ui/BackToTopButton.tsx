@@ -29,7 +29,7 @@ export const BackToTopButton = () => {
       onClick={scrollToTop}
       data-visible={visible}
       aria-label="Volte ao topo da página"
-      className="btn-style hidden data-[visible=true]:block text-2xl p-2 rounded-md fixed bottom-4 right-4 z-50 shadow-md lg:bottom-6 lg:right-6"
+      className="hidden data-[visible=true]:block btn-style border border-light-blue7 text-2xl p-2 rounded-md fixed bottom-4 right-4 z-50 hover:border-light-blue8 dark:border-dark-blue7 dark:hover:border-dark-blue8 shadow-md lg:bottom-6 lg:right-6"
     >
       <SlArrowUp />
     </button>
