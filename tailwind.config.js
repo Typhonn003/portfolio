@@ -28,6 +28,9 @@ export default {
       screens: {
         xs: "520px",
       },
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
+      },
     },
   },
   darkMode: "class",

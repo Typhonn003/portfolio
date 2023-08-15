@@ -11,7 +11,7 @@ export const NavBar = () => {
           <li className="flex" key={id}>
             <a
               href={"#" + id}
-              className="group flex gap-4 items-center"
+              className="group flex gap-4 items-center font-poppins"
               aria-label={`Rola a página até a seção ${sectionName.toLocaleLowerCase()}`}
             >
               <span
